@@ -18,7 +18,7 @@ Getting centroid from polygons (Centroids in lat long)
 \examples{
 library(terra)
 library(SpatialR)
-br = vect("C:/Users/Workshop/Documents/Research/Programming/SpatialR/Shapes/Brazil_States.shp")
+br = vect("Shapes/Brazil_States.shp")
 polycent(br)
 
 }
