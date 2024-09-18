@@ -11,23 +11,15 @@ you with the essential tools to handle various geographic data tasks efficiently
 
 # Functions:
 ## polycent {SpatialR}	(preview) R Documentation
-Getting centroid from polygons (Centroids in lat long)
+Getting centroid from vestors (Centroids in lat long)
 Description
-Getting centroid from polygons (Centroids in lat long)
+Getting centroid from polygons, points and lines (Centroids in lat long)
 
 ### Usage
 polycent(x)
 Arguments
 x	
-A SpatVector or sf polygon object.
+A SpatVector or sf object.
 
 ### Value
 The table of centroids with longitude and latitude.
-
-### Examples
-Run examples
-
-library(terra)
-library(SpatialR)
-br = vect("Shapes/Brazil_States.shp")
-polycent(br)
