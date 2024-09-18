@@ -10,9 +10,7 @@ you with the essential tools to handle various geographic data tasks efficiently
 
 
 # Functions:
-## polycent {SpatialR}	(preview) R Documentation
-Getting centroid from vestors (Centroids in lat long)
-Description
+## polycent
 Getting centroid from polygons, points and lines (Centroids in lat long)
 
 ### Usage
