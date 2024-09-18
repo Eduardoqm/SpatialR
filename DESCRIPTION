@@ -1,0 +1,16 @@
+Package: SpatialR
+Title: SpatialR - Comprehensive spatial tools for geographic data
+Version: 0.0.0.1
+Authors@R: 
+    person(given = "Eduardo", family = "Q Marques", email = "eduardobio2009@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-8008-0965"))
+Description: SpatialR is a comprehensive R package offering a suite of spatial tools designed for diverse geographic data needs. With functionality tailored for working with rasters and shapefiles, this package provides an extensive range of tools for spatial analysis, mapping, and data manipulation. Whether you’re conducting environmental assessments or spatial data management, SpatialR equips you with the essential tools to handle various geographic data tasks efficiently.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: terra, sf, geojson, sp, Rcpp
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+
