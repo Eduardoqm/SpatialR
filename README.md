@@ -1,8 +1,4 @@
----
----
----
-
-# ![](https://github.com/Eduardoqm/SpatialR/blob/main/SpatialR%20logo.png?raw=true){width="200"} Spatial tools for geographic data
+# ![Cena](https://github.com/Eduardoqm/SpatialR/blob/main/SpatialR%20logo.png?raw=true){width="200"} **Spatial tools for geographic data**
 
 Create by: [Eduardo Q. Marques](https://eduardoqm.github.io/)
 
