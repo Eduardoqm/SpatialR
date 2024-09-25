@@ -4,11 +4,7 @@ editor_options:
     wrap: 72
 ---
 
-# ![](https://github.com/Eduardoqm/SpatialR/blob/main/SpatialR%20logo.png?raw=true){width="145"}
-
-# SpatialR
-
-Comprehensive spatial tools for geographic data
+# ![](https://github.com/Eduardoqm/SpatialR/blob/main/SpatialR%20logo.png?raw=true){width="217"} Spatial tools for geographic data
 
 **SpatialR** is a comprehensive R package offering a suite of spatial
 tools designed for diverse geographic data needs. With functionality
