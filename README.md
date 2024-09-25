@@ -1,18 +1,6 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
+# ![](https://github.com/Eduardoqm/SpatialR/blob/main/SpatialR%20logo.png?raw=true){width="155" height="152"} Spatial tools for geographic data
 
-# ![](https://github.com/Eduardoqm/SpatialR/blob/main/SpatialR%20logo.png?raw=true){width="217"} Spatial tools for geographic data
-
-**SpatialR** is a comprehensive R package offering a suite of spatial
-tools designed for diverse geographic data needs. With functionality
-tailored for working with **rasters** and **shapefiles**, this package
-provides an extensive range of tools for spatial analysis, mapping, and
-data manipulation. Whether you're conducting environmental assessments
-or spatial data management, SpatialR equips you with the essential tools
-to handle various geographic data tasks efficiently.
+**SpatialR** is a comprehensive R package offering a suite of spatial tools designed for diverse geographic data needs. With functionality tailored for working with **rasters** and **shapefiles**, this package provides an extensive range of tools for spatial analysis, mapping, and data manipulation. Whether you're conducting environmental assessments or spatial data management, SpatialR equips you with the essential tools to handle various geographic data tasks efficiently.
 
 ## Functions
 
