@@ -4,7 +4,7 @@ editor_options:
     wrap: 72
 ---
 
-# ![](SpatialR logo.png){width="168"}
+# ![](https://github.com/Eduardoqm/SpatialR/blob/main/SpatialR%20logo.png?raw=true){width="145"}
 
 # SpatialR
 
