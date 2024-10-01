@@ -33,5 +33,5 @@ library(SpatialR)
 
 
 ## Functions
-polycent()
+#### polycent()
 For SpatVector or sf objects. Return a table of centroids with longitude and latitude.
