@@ -1,27 +1,34 @@
-#' Getting centroid from polygons (Centroids in lat long)
+#' Generate centroid points from polygons
 #'
 #' @param x A SpatVector or sf polygon object.
-#' @return The table of centroids with longitude and latitude.
+#' @return The points of centroids.
 #' @examples
 #' library(rnaturalearth)
 #' library(SpatialR)
 #'
 #' br = vect(rnaturalearth::ne_states("Brazil", returnclass = "sf"))
-#' polycent(br)
+#' plot(br)
+#'
+#' point_br = pointcent(br)
+#' plot(point_br, add = T)
 #'
 #' @export
-polycent <- function(x) {
+point_cent <- function(x) {
   # Verificar se o objeto é do tipo SpatVector (terra)
   if (inherits(x, "SpatVector")) {
     centroids <- terra::centroids(x)  # Calcular centróides usando terra
     coords <- terra::geom(centroids)[, c("x", "y")]
-    return(data.frame(long = coords[, "x"], lat = coords[, "y"]))
+    df <- data.frame(long = coords[, "x"], lat = coords[, "y"])
+    points_vect <- vect(df, geom = c("long", "lat"), crs = "EPSG:4326")
+    return(points_vect)
 
     # Verificar se o objeto é do tipo sf
   } else if (inherits(x, "sf")) {
     centroids <- sf::st_centroid(x)  # Calcular centróides usando sf
     coords <- sf::st_coordinates(centroids)
-    return(data.frame(long = coords[, 1], lat = coords[, 2]))
+    df <- data.frame(long = coords[, 1], lat = coords[, 2])
+    points_vect <- vect(df, geom = c("long", "lat"), crs = "EPSG:4326")
+    return(points_vect)
 
     # Caso contrário, retornar um erro
   } else {
