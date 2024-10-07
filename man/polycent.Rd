@@ -16,9 +16,10 @@ The table of centroids with longitude and latitude.
 Getting centroid from polygons (Centroids in lat long)
 }
 \examples{
-library(terra)
+library(rnaturalearth)
 library(SpatialR)
-br = vect("Shapes/Brazil_States.shp")
+
+br = vect(rnaturalearth::ne_states("Brazil", returnclass = "sf"))
 polycent(br)
 
 }

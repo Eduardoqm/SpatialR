@@ -30,8 +30,12 @@ Once installed, load the package with:
 library(SpatialR)
 ```
 
-
-
 ## Functions
+
 #### polycent()
+
 For SpatVector or sf objects. Return a table of centroids with longitude and latitude.
+
+#### pointcent()
+
+For SpatVector or sf objects. Returns centroids points from polygons.
