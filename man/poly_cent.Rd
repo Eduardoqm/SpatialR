@@ -20,6 +20,6 @@ library(rnaturalearth)
 library(SpatialR)
 
 br = vect(rnaturalearth::ne_states("Brazil", returnclass = "sf"))
-polycent(br)
+poly_cent(br)
 
 }

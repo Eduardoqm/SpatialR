@@ -39,3 +39,7 @@ For SpatVector or sf objects. Return a table of centroids with longitude and lat
 #### point_cent()
 
 For SpatVector or sf objects. Returns centroids points from polygons.
+
+#### buffer_cent()
+
+For SpatVector or sf objects. Returns buffers of centroids from polygons.

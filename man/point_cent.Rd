@@ -22,7 +22,7 @@ library(SpatialR)
 br = vect(rnaturalearth::ne_states("Brazil", returnclass = "sf"))
 plot(br)
 
-point_br = pointcent(br)
+point_br = point_cent(br)
 plot(point_br, add = T)
 
 }
